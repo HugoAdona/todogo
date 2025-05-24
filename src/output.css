@@ -187,7 +187,15 @@ body {
   background-color: #c4e3ed;
   padding: 5px 10px;
   border-radius: 10px;
+}
+#addNew:hover {
   cursor: pointer;
+  transform: scale(1.03);
+  transition: transform 0.2s ease;
+}
+#addNew:active {
+  transform: scale(0.97);
+  transition: transform 0.2s ease;
 }
 .fa-plus {
   background-color: #53adca;
@@ -196,6 +204,14 @@ body {
 }
 #msg {
   color: blue;
+}
+.btn:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+.btn:active {
+  transform: scale(0.95);
+  transition: transform 0.2s ease;
 }
 #tasks {
   display: grid;
@@ -215,6 +231,12 @@ body {
   display: flex;
   gap: 10px;
 }
-#tasks div .options i {
+#tasks div .options i:hover {
   cursor: pointer;
+  transform: scale(1.15);
+  transition: transform 0.2s ease;
+}
+#tasks div .options i:active {
+  transform: scale(0.92);
+  transition: transform 0.2s ease;
 }
