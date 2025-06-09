@@ -24,8 +24,7 @@ This repository contains the source code for TodoGo, a minimalist to-do list web
 ## File Structure
 
 - `index.html`: Main HTML file containing the app structure and task form modal.
-- `input.css`: Source Tailwind CSS file with custom styles.
-- `output.css`: Compiled CSS file with Tailwind utilities and custom styles.
+- `styles.css`: Main CSS file with custom styles.
 - `script.js`: JavaScript for task management, form handling, and local storage.
 - `assets/`: Directory for static resources (e.g., icons, if any).
 
@@ -75,5 +74,5 @@ This is a personal project, but feedback and suggestions are welcome! Feel free 
 Connect with me via:
 
 - [GitHub](https://github.com/HugoAdona)
-- [Instagram](https://www.instagram.com/hugo_adona)
-- [X](https://x.com/HugoAdona)
+- [Instagram](https://www.instagram.com/hugoadona)
+- [X](https://x.com/hugoadona)
