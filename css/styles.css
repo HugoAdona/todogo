@@ -1,0 +1,94 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    margin: 0 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e8f4f8 !important;
+}
+
+.app {
+    background-color: #e8f4f8;
+    width: 345px;
+    height: 545px;
+    border: 4px solid #6fbad3;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#addNew {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c4e3ed;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#addNew:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: transform 0.2s ease;
+}
+
+#addNew:active {
+    transform: scale(0.97);
+    transition: transform 0.2s ease;
+}
+
+.fa-plus {
+    background-color: #53adca;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#msg {
+    color: #53adca;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+}
+
+.btn:active {
+    transform: scale(0.95);
+    transition: transform 0.2s ease;
+}
+
+#tasks {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+#tasks div {
+    border: 2px solid #53adca;
+    background-color: #c4e3ed;
+    border-radius: 10px;
+    padding: 5px;
+    display: grid;
+    gap: 4px;
+}
+
+#tasks div .options {
+    justify-self: start;
+    display: flex;
+    gap: 10px;
+}
+
+#tasks div .options i:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: transform 0.2s ease;
+}
+
+#tasks div .options i:active {
+    transform: scale(0.92);
+    transition: transform 0.2s ease;
+}
